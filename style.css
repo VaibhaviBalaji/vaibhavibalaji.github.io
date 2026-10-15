@@ -266,3 +266,17 @@ footer {
         padding: 30px 20px;
     }
 }
+
+
+.article-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.article-images img {
+    width: 100%;
+    height: auto;
+}
